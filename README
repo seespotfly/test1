@@ -1,0 +1,24 @@
+Homework, for my project, come up with a list of things I want to track, data that will be relevant to the project I want to build.
+
+My project: open source tweet bot that takes requests for information, evaluates the person that is asking for information to determine if It should give it, then replies, via twitter, with the requested data.  Possibly including a text function and/or an e-mail function.
+
+Paramaters of my database:
+
+Twitter handle (could be the primary key?)
+Name (first, last)
+Company (some will be blank)
+Email address
+Phone number (for text service)
+
+To determine if we will give the code:
+Tenant (Y/N)
+Partner (Y/N)
+
+Information needed to respond:
+Parking Codes
+Dates associated with each code (changes daily)
+
+Information the database needs to collect:
+Number of times the code has been requested by ID
+
+If the system doesn't know the person requesting the code it should DM Adam's twitter handle and ask if it should add the person as a Tenant, Partner, ignore or give the code one time.
